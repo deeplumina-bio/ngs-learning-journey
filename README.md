@@ -1,49 +1,133 @@
-# DeepLumina — NGS Learning Journey
+# DeepLumina — Computational Biology, NGS & Bioinformatics Journey
 
-## About
-This repository documents my learning journey in:
-- Bioinformatics
-- Next Generation Sequencing (NGS)
-- Linux
-- Computational Biology
+## About DeepLumina
 
-The purpose of this repository is to:
-- build technical consistency
-- document workflows
-- organize learning
-- create public proof of progress
+DeepLumina is my public repository documenting my journey toward becoming an NGS and computational biology specialist.
 
-## Current Focus
-- Linux fundamentals
-- FASTQ understanding
-- Quality control workflows
-- Galaxy platform
-- RNA-Seq basics
+This repository tracks:
 
-## Learning Areas
-- NGS workflows
-- Bioinformatics tools
-- Linux command line
-- Sequencing data formats
-- Workflow documentation
+* Structured learning progress
+* Bioinformatics workflows
+* NGS projects and pipelines
+* Scripts and automation
+* AI-assisted educational tools
+* Portfolio projects
+* Open learning resources
 
-## Tools & Platforms
-- Linux
-- Galaxy
-- GitHub
-- FastQC
-- MultiQC
+My goal is to build strong expertise in bioinformatics, genomics, NGS analysis, and computational biology while creating practical tools and projects along the way.
 
-## Long-Term Goal
-Develop strong foundations in computational biology and bioinformatics while building reusable technical workflows and systems.
+---
 
-## Repository Structure
+# Current Mission
 
-| File | Purpose |
-|------|------|
-| `linux-notes.md` | Linux commands and explanations |
-| `ngs-basics.md` | Core NGS concepts and workflows |
-| `resources.md` | Learning resources and useful links |
+Building expertise in:
 
-## Status
-Currently in foundational learning phase.
+* Bioinformatics
+* NGS Analysis
+* Computational Biology
+* Genomics Data Science
+* AI for Biology
+* Workflow Automation
+* Scientific Computing
+
+Simultaneously building:
+
+**DeepLumina Learning App**
+
+A free AI-assisted learning platform focused on:
+
+* Bioinformatics
+* NGS
+* Computational Biology
+* Structured learning paths
+* Curated educational resources
+
+---
+
+# Learning Roadmap
+
+| Phase | Focus Area                            | Status                  |
+| ----- | ------------------------------------- | ----------------------- |
+| 1     | Linux for Bioinformatics              | Completed / In Progress |
+| 2     | R Programming for Bioinformatics      | Current Focus           |
+| 3     | Python for Bioinformatics             | Planned                 |
+| 4     | Core Bioinformatics                   | Planned                 |
+| 5     | NGS Analysis Specialist               | Planned                 |
+| 6     | AI/ML for Bioinformatics & Genomics   | Planned                 |
+| 7     | Capstone + Portfolio + Interview Prep | Planned                 |
+
+---
+
+# Technical Stack
+
+Bioinformatics:
+
+* FASTQ
+* RNA-seq
+* QC workflows
+* Sequence analysis
+* Workflow documentation
+
+Programming:
+
+* Linux
+* R
+* Python
+* Bash
+
+Platforms:
+
+* Galaxy
+* GitHub
+* Jupyter
+* RStudio
+
+Tools:
+
+* FastQC
+* MultiQC
+* Bioconductor
+* Git
+
+---
+
+# Repository Structure
+
+| Directory        | Purpose                      |
+| ---------------- | ---------------------------- |
+| /linux           | Linux practice and commands  |
+| /R               | R programming practice       |
+| /python          | Python learning and scripts  |
+| /bioinformatics  | Core bioinformatics concepts |
+| /ngs             | NGS workflows and projects   |
+| /projects        | Real-world projects          |
+| /app-development | DeepLumina app progress      |
+| /notes           | Structured notes             |
+| /resources       | Learning resources           |
+| /portfolio       | Final portfolio projects     |
+
+---
+
+# Progress Tracking
+
+Current Phase:
+
+* Learning R for Bioinformatics
+* Building practice workflows
+* Creating structured learning resources
+* Building AI-assisted learning tools
+
+Weekly Goals:
+
+* Learn
+* Practice
+* Build
+* Document
+* Improve
+
+---
+
+# Long-Term Goal
+
+Build expertise in computational biology and NGS while creating practical tools, workflows, and educational resources that can help both researchers and students.
+
