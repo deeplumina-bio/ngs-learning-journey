@@ -106,3 +106,213 @@ These basics support:
 ✓ dataframe creation
 ✓ data inspection
 ✓ object handling
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+# R for Bioinformatics — Day 2 Notes
+
+## Syllabus Progress: Lessons 6–10 Foundations
+
+### Objective:
+
+Learn data manipulation for biological datasets.
+
+
+# Topics Covered
+
+## 1. Installing / Loading Packages
+
+install.packages("dplyr")
+library(dplyr)
+
+Purpose:
+
+Packages extend R for bioinformatics workflows.
+
+## 2. Selecting Columns
+
+select(gene, counts)
+
+Purpose:
+
+Keep required biological features.
+
+## 3. Filtering Rows
+
+filter(counts > 100)
+
+Used for:
+
+* removing low-count genes
+* selecting significant genes
+
+## 4. Creating Columns
+
+mutate(
+ fold_change = treated/control
+)
+
+Purpose:
+
+Generate derived biological metrics.
+
+## 5. Pipes
+
+data %>%
+ filter() %>%
+ select()
+
+Concept:
+
+Pipeline thinking.
+
+Data flows step-by-step.
+
+
+
+## 6. Basic Statistics
+
+mean()
+sum()
+max()
+min()
+
+
+Uses:
+
+* expression summaries
+* QC metrics
+* sample statistics
+
+## 7. Saving Changes
+
+Wrong:
+
+
+mutate(...)
+
+Correct:
+
+
+data <- data %>%
+ mutate(...)
+
+
+Important:
+
+Unsaved mutations disappear.
+
+# Common Errors Learned
+
+Object not found:
+
+Cause:
+
+Column/object missing
+
+Fix:
+
+Check names and save objects
+
+Function not found:
+
+Cause:
+
+Package not loaded
+
+Fix:
+library(package_name)
+
+
+
+# Bioinformatics Relevance
+
+These skills support:
+
+* preprocessing count tables
+* expression filtering
+* data cleaning
+* feature engineering
+
+
+# Practice Completed
+
+✓ select()
+✓ filter()
+✓ mutate()
+✓ pipes
+✓ statistics
+✓ saving outputs
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# R for Bioinformatics — Day 3 Notes
+
+## Syllabus Progress: Lesson 15 Progress Tracking
+
+### Focus Areas Covered Today:
+
+* Mutation and feature creation
+* Filtering gene expression data
+* Row-wise calculations
+* Handling missing values (NA)
+* Sorting/count matrix processing
+* Wide ↔ Long transformation
+* Pipeline thinking using dplyr
+* Debugging common R errors
+
+### Current Position in Roadmap:
+
+Lessons Completed/Practiced Until:
+
+✓ Dataframes and expression matrices
+✓ mutate() workflows
+✓ Filtering and selection
+✓ Row calculations (`rowMeans`)
+✓ Missing value handling
+✓ Sorting pipelines
+✓ Reshaping datasets
+✓ Basic expression preprocessing workflows
+
+### Next Session Start Point:
+
+Continue from:
+
+**Lesson 4 → Reshaping reinforcement + metadata joining + expression visualization**
+
+### Bioinformatics Context:
+
+Current skills now support:
+
+* preprocessing count matrices
+* expression filtering
+* normalization preparation
+* RNA-seq preprocessing logic
+* data cleaning workflows
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
