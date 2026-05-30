@@ -49,7 +49,7 @@ A free AI-assisted learning platform focused on:
 | Phase | Focus Area                            | Status                  |
 | ----- | ------------------------------------- | ----------------------- |
 | 1     | Linux for Bioinformatics              | Completed / In Progress |
-| 2     | R Programming for Bioinformatics      | Current Focus           |
+| 2     | R Programming for Bioinformatics      | Current Focus (DAY -4)          |
 | 3     | Python for Bioinformatics             | Planned                 |
 | 4     | Core Bioinformatics                   | Planned                 |
 | 5     | NGS Analysis Specialist               | Planned                 |
