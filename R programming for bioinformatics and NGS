@@ -1,0 +1,108 @@
+# R for Bioinformatics — Day 1 Notes
+
+## Syllabus Progress: Lessons 1–5 Foundations
+
+### Objective:
+
+Build R fundamentals required for handling biological datasets.
+
+# Topics Covered
+
+## 1. R Environment Basics
+
+Core workflow:
+object <- value
+
+Examples:
+x <- 10
+gene <- "TP53"
+
+Concept:
+
+* `<-` assigns values
+* objects store data for later use
+
+## 2. Data Types
+
+### Numeric
+x <- 10
+
+### Character
+gene <- "BRCA1"
+
+### Logical
+TRUE
+FALSE
+
+
+Importance:
+
+Biological datasets contain mixed data types.
+
+## 3. Vectors
+
+Creating vectors:
+
+genes <- c("TP53","EGFR","MYC")
+counts <- c(100,200,300)
+
+Concept:
+
+Vectors store same-type values.
+
+Used for:
+
+* gene lists
+* expression values
+* sample names
+
+## 4. Dataframes
+
+Creating biological tables:
+
+expr <- data.frame(
+ gene=c("TP53","EGFR"),
+ counts=c(100,200)
+)
+
+
+Concept:
+
+* rows → genes/samples
+* columns → metadata/features
+
+
+## 5. Basic Inspection
+
+Useful commands:
+
+head(expr)
+str(expr)
+dim(expr)
+colnames(expr)
+
+
+Purpose:
+
+Understand dataset structure before analysis.
+
+
+
+# Bioinformatics Relevance
+
+These basics support:
+
+* count matrices
+* metadata tables
+* annotation files
+* sample sheets
+
+
+
+# Practice Completed
+
+✓ variables
+✓ vectors
+✓ dataframe creation
+✓ data inspection
+✓ object handling
